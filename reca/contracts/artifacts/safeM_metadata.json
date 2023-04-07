@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/AppleToken.sol": "safeM"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/AppleToken.sol": {
+			"keccak256": "0x644ac41165668a4bb14258af82b93727e79bd38a68531ee05fa3cadc1a33f79c",
+			"urls": [
+				"bzz-raw://d05040772d26834fe51c48816f1eecbdff8f6fff6318a9e89739ae9903edf522",
+				"dweb:/ipfs/QmYF8w7EkH4AuTjtzc318QrEMmX9ujVBdRCGMaytkXVJC1"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,244 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/spencer/Downloads/ApplePool/contracts/AppleRewardPool.sol": {
+      "lastModificationDate": 1680674222403,
+      "contentHash": "a2f04de736bea2b094008dd739696b2b",
+      "sourceName": "contracts/AppleRewardPool.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "Address",
+        "AppleRewardPool",
+        "Context",
+        "IERCLike",
+        "Ownable",
+        "UniswapV2pair",
+        "safemath"
+      ]
+    },
+    "/Users/spencer/Downloads/ApplePool/contracts/UniswapV2Factory.sol": {
+      "lastModificationDate": 1680674222426,
+      "contentHash": "d9c20a127cf6ac6f09df561b2839870c",
+      "sourceName": "contracts/UniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "IERC20",
+        "IUniswapV2Callee",
+        "IUniswapV2ERC20",
+        "IUniswapV2Factory",
+        "IUniswapV2Pair",
+        "Math",
+        "SafeMath",
+        "UQ112x112",
+        "UniswapV2ERC20",
+        "UniswapV2Factory",
+        "UniswapV2Pair"
+      ]
+    },
+    "/Users/spencer/Downloads/ApplePool/contracts/AppleToken.sol": {
+      "lastModificationDate": 1680571408551,
+      "contentHash": "aad542a9556cef241a3417d560c47f67",
+      "sourceName": "contracts/AppleToken.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "AppleToken",
+        "ERC20",
+        "ERC20Like",
+        "safeM"
+      ]
+    },
+    "/Users/spencer/Downloads/ApplePool/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1680571379442,
+      "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">= 0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "/Users/spencer/Downloads/ApplePool/contracts/solve.sol": {
+      "lastModificationDate": 1680674059186,
+      "contentHash": "5e9ad85d918e16821e0ffede32915479",
+      "sourceName": "contracts/solve.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "AppleRewardPool",
+        "IERC20",
+        "IUniswapV2Pair",
+        "Solve",
+        "check"
+      ]
+    },
+    "/Users/spencer/Downloads/ApplePool/contracts/check.sol": {
+      "lastModificationDate": 1680674311498,
+      "contentHash": "92cd542aee31371f896bf6813a20aa05",
+      "sourceName": "contracts/check.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./UniswapV2Factory.sol",
+        "./AppleToken.sol",
+        "./AppleRewardPool.sol"
+      ],
+      "versionPragmas": [
+        "0.5.16"
+      ],
+      "artifacts": [
+        "check"
+      ]
+    }
+  }
+}

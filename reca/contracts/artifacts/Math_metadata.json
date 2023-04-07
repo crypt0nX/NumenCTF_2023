@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/UniswapV2Factory.sol": "Math"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/UniswapV2Factory.sol": {
+			"keccak256": "0x7e317128b0b621eb923667646f1a6b9d728bb5b39f82b296235c6b853c07fe43",
+			"urls": [
+				"bzz-raw://a6a3bae618e928ad3641b0c212c842b9ee7137bed843df4f628f0b380e685a43",
+				"dweb:/ipfs/QmdND2Pbo3QcGaAm2EDAq9VWscm6BETgfgHkHNykriAHse"
+			]
+		}
+	},
+	"version": 1
+}
